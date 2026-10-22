@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucía Evelyn Jantus | Data Scientist & Diseñadora Industrial</title>
+  <!-- Tipografía Sans-Serif Moderna (Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            cream: '#FAF6F0',
+            terracotta: '#C87D65',
+            terracottaDark: '#B26850',
+            sage: '#C8D9CE',
+            lilac: '#DBD0E8',
+            sand: '#F3DFC8',
+            blush: '#F2D0CB',
+            charcoal: '#2C2623'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-cream text-charcoal font-sans antialiased selection:bg-terracotta selection:text-white">
+
+  <!-- Navegación -->
+  <header class="max-w-6xl mx-auto px-6 py-6 flex flex-wrap items-center justify-between gap-4">
+    <a href="#" class="text-xl font-bold tracking-tight">LUCÍA EVELYN JANTUS</a>
+    <nav class="hidden md:flex items-center gap-8 text-sm font-medium">
+      <a href="#inicio" class="text-terracotta border-b-2 border-terracotta pb-1">Inicio</a>
+      <a href="#proyectos" class="hover:text-terracotta transition">Proyectos</a>
+      <a href="#sobre-mi" class="hover:text-terracotta transition">Sobre mí</a>
+      <a href="#formacion" class="hover:text-terracotta transition">Formación</a>
+      <a href="#contacto" class="hover:text-terracotta transition">Contacto</a>
+    </nav>
+    <a href="CV-Lucia-Jantus.pdf" download class="bg-lilac hover:opacity-90 text-charcoal font-semibold text-sm px-5 py-2.5 rounded-full transition">
+      Descargar CV
+    </a>
+  </header>
+
+  <!-- Sección Hero -->
+  <section id="inicio" class="max-w-6xl mx-auto px-6 py-12 md:py-20 grid md:grid-cols-12 gap-12 items-center">
+    <div class="md:col-span-7 space-y-6">
+      <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+        Hola, soy Lucía.<br>
+        Transformo datos complejos en soluciones estratégicas.
+      </h1>
+      <h2 class="text-xl md:text-2xl font-semibold text-charcoal/90">
+        Data Scientist & Diseñadora Industrial
+      </h2>
+      <p class="text-base md:text-lg text-charcoal/75 leading-relaxed max-w-xl">
+        Especializada en Machine Learning, análisis de datos y diseño centrado en el usuario (UCD), con un enfoque en Data Storytelling para impulsar decisiones fundamentadas.
+      </p>
+      <div class="flex flex-wrap gap-4 pt-2">
+        <a href="#proyectos" class="bg-terracotta hover:bg-terracottaDark text-white font-semibold px-7 py-3 rounded-full shadow-sm transition">
+          Ver Proyectos
+        </a>
+        <a href="#contacto" class="border border-terracotta text-charcoal hover:bg-terracotta/10 font-semibold px-7 py-3 rounded-full transition">
+          Hablemos
+        </a>
+      </div>
+    </div>
+
+    <!-- Foto con acentos pastel -->
+    <div class="md:col-span-5 flex justify-center relative">
+      <div class="w-72 h-72 md:w-80 md:h-80 rounded-full bg-sage p-3 relative shadow-md flex items-center justify-center overflow-hidden border-4 border-white">
+        <img src="foto-cv.jpg" alt="Lucía Evelyn Jantus" class="w-full h-full object-cover rounded-full">
+      </div>
+    </div>
+  </section>
+
+  <!-- Chips de Habilidades -->
+  <section class="max-w-6xl mx-auto px-6 py-6">
+    <div class="flex flex-wrap justify-center gap-3 text-sm font-medium">
+      <span class="bg-sage px-4 py-2 rounded-full">🐍 Python & Pandas</span>
+      <span class="bg-sage px-4 py-2 rounded-full">🤖 Machine Learning (Scikit-Learn)</span>
+      <span class="bg-sand px-4 py-2 rounded-full">🗄️ Bases de Datos SQL & NoSQL</span>
+      <span class="bg-blush px-4 py-2 rounded-full">☁️ Oracle Cloud (OCI)</span>
+      <span class="bg-lilac px-4 py-2 rounded-full">📊 Data Storytelling</span>
+      <span class="bg-sand px-4 py-2 rounded-full">✨ UX/UI & Figma</span>
+    </div>
+  </section>
+
+  <!-- Galería de Proyectos -->
+  <section id="proyectos" class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-2xl md:text-3xl font-bold text-center mb-12">Proyectos & Desafíos</h2>
+    
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Proyecto 1 -->
+      <article class="bg-white rounded-3xl p-5 shadow-sm hover:shadow-md transition border border-charcoal/5 flex flex-col justify-between">
+        <div>
+          <div class="bg-lilac/40 rounded-2xl h-44 mb-5 flex items-center justify-center p-4">
+            <span class="text-sm font-semibold text-charcoal/70">🚀 Dashboard / Proyecto NASA</span>
+          </div>
+          <h3 class="text-lg font-bold">NASA Space Apps</h3>
+          <p class="text-sm text-charcoal/75 mt-1 mb-4">Finalista Global (Ago 2025 - Dic 2025). Desarrollo de soluciones basadas en datos e innovación tecnológica.</p>
+        </div>
+        <div class="flex flex-wrap gap-2 text-xs font-semibold">
+          <span class="bg-sage px-3 py-1 rounded-full">Python</span>
+          <span class="bg-sand px-3 py-1 rounded-full">Data Science</span>
+          <span class="bg-lilac px-3 py-1 rounded-full">UX/UI</span>
+        </div>
+      </article>
+
+      <!-- Proyecto 2 -->
+      <article class="bg-white rounded-3xl p-5 shadow-sm hover:shadow-md transition border border-charcoal/5 flex flex-col justify-between">
+        <div>
+          <div class="bg-sage/40 rounded-2xl h-44 mb-5 flex items-center justify-center p-4">
+            <span class="text-sm font-semibold text-charcoal/70">📉 Dashboard Churn Rate</span>
+          </div>
+          <h3 class="text-lg font-bold">Telecom X: Evasión de Clientes</h3>
+          <p class="text-sm text-charcoal/75 mt-1 mb-4">Análisis predictivo y modelado de retención para detectar patrones de cancelación de clientes.</p>
+        </div>
+        <div class="flex flex-wrap gap-2 text-xs font-semibold">
+          <span class="bg-sage px-3 py-1 rounded-full">Python</span>
+          <span class="bg-sand px-3 py-1 rounded-full">Scikit-Learn</span>
+          <span class="bg-lilac px-3 py-1 rounded-full">EDA</span>
+        </div>
+      </article>
+
+      <!-- Proyecto 3 -->
+      <article class="bg-white rounded-3xl p-5 shadow-sm hover:shadow-md transition border border-charcoal/5 flex flex-col justify-between">
+        <div>
+          <div class="bg-blush/40 rounded-2xl h-44 mb-5 flex items-center justify-center p-4">
+            <span class="text-sm font-semibold text-charcoal/70">🛒 Métricas E-Commerce</span>
+          </div>
+          <h3 class="text-lg font-bold">Alura Store</h3>
+          <p class="text-sm text-charcoal/75 mt-1 mb-4">Análisis exploratorio de datos y visualización de métricas comerciales y de ventas con Python.</p>
+        </div>
+        <div class="flex flex-wrap gap-2 text-xs font-semibold">
+          <span class="bg-sage px-3 py-1 rounded-full">Python</span>
+          <span class="bg-sand px-3 py-1 rounded-full">Pandas</span>
+          <span class="bg-lilac px-3 py-1 rounded-full">Data Storytelling</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Sección Biográfica -->
+  <section id="sobre-mi" class="max-w-5xl mx-auto px-6 py-14">
+    <h2 class="text-2xl md:text-3xl font-bold text-center mb-10">De diseñar objetos a diseñar con datos</h2>
+    <div class="grid md:grid-cols-2 gap-8 bg-white/70 p-8 rounded-3xl border border-charcoal/5">
+      <div class="flex gap-4 items-start">
+        <div class="bg-sand p-3 rounded-2xl text-2xl">🎨</div>
+        <p class="text-sm md:text-base text-charcoal/80 leading-relaxed">
+          Desde <strong>Gualeguaychú, Entre Ríos</strong>, mi camino une la creatividad del <strong>Diseño Industrial (UNLP)</strong> y la gestión operativa y de marketing en educación superior con la lógica de la Ciencia de Datos.
+        </p>
+      </div>
+      <div class="flex gap-4 items-start">
+        <div class="bg-lilac p-3 rounded-2xl text-2xl">💻</div>
+        <p class="text-sm md:text-base text-charcoal/80 leading-relaxed">
+          Especializada en transformar métricas complejas, consultas SQL y modelos predictivos en historias visuales claras que mejoran la experiencia del usuario y las operaciones de negocio.
+        </p>
+      </div>
+    </div>
+  </section>
+<!-- Sección de Educación, Certificaciones y Anexo de Cursos -->
+  <section id="formacion" class="max-w-5xl mx-auto px-6 py-12">
+    <div class="text-center max-w-2xl mx-auto mb-10 space-y-3">
+      <h2 class="text-2xl md:text-3xl font-bold">Educación & Formación Continua</h2>
+      <p class="text-sm md:text-base text-charcoal/75">
+        Formación universitaria combinada con especialización intensiva en Ciencia de Datos, Cloud Computing y Diseño de Experiencias Digitales.
+      </p>
+    </div>
+
+    <!-- Certificaciones y Títulos Principales (CV) -->
+    <div class="grid md:grid-cols-2 gap-4 mb-8">
+      <div class="bg-white p-5 rounded-2xl border border-charcoal/5 shadow-sm">
+        <span class="text-xs font-bold uppercase tracking-wider text-terracotta">Data Science & Cloud (2026)</span>
+        <h3 class="font-bold text-base mt-1">ONE Tech Foundation G9 (339 hs) & Advanced (58 hs)</h3>
+        <p class="text-sm text-charcoal/70 mt-1">Alura Latam · Data Analytics con Python (Aprender BA)</p>
+      </div>
+      <div class="bg-white p-5 rounded-2xl border border-charcoal/5 shadow-sm">
+        <span class="text-xs font-bold uppercase tracking-wider text-terracotta">Certificaciones Oficiales (Mayo 2026)</span>
+        <h3 class="font-bold text-base mt-1">Oracle Cloud Infrastructure (OCI) 2025 Foundations Associate</h3>
+        <p class="text-sm text-charcoal/70 mt-1">Oracle & Alura Latam · Gestión de datos, seguridad y gobernanza</p>
+      </div>
+      <div class="bg-white p-5 rounded-2xl border border-charcoal/5 shadow-sm md:col-span-2">
+        <span class="text-xs font-bold uppercase tracking-wider text-terracotta">Grado Universitario (2012 - 2017)</span>
+        <h3 class="font-bold text-base mt-1">Diseñadora Industrial & Profesora en Diseño Industrial</h3>
+        <p class="text-sm text-charcoal/70 mt-1">Universidad Nacional de La Plata (UNLP)</p>
+      </div>
+    </div>
+
+    <!-- Acordeones Desplegables con el Anexo de Cursos -->
+    <div class="space-y-4">
+      
+      <!-- Categoría 1: Data Science, ML e IA -->
+      <details class="group bg-white/80 rounded-2xl border border-charcoal/5 p-5 transition">
+        <summary class="flex justify-between items-center font-bold cursor-pointer list-none">
+          <span class="flex items-center gap-3">
+            <span class="bg-sage px-3 py-1 rounded-full text-xs">27 Cursos</span>
+            Data Science, Machine Learning e Inteligencia Artificial
+          </span>
+          <span class="text-terracotta group-open:rotate-180 transition-transform">▼</span>
+        </summary>
+        <ul class="mt-4 pt-4 border-t border-charcoal/10 grid md:grid-cols-2 gap-2.5 text-xs md:text-sm text-charcoal/80">
+          <li>• Low Code e IA con ORACLE APEX — Alura Latam (Ago 2026)</li>
+          <li>• Inteligencia Artificial: preparación para el mercado — Alura Latam (Jun 2026)</li>
+          <li>• ChatGPT: optimizando la calidad de los resultados — Alura Latam (Jun 2026)</li>
+          <li>• IA Aumentada: previsión de atrasos de vuelos — Alura Latam (Mar 2026)</li>
+          <li>• Clasificación: validación de modelos y métricas — Alura Latam (Mar 2026)</li>
+          <li>• Clasificación: clasificar datos con Machine Learning — Alura Latam (Mar 2026)</li>
+          <li>• Regresión lineal: técnicas avanzadas de modelado — Alura Latam (Feb 2026)</li>
+          <li>• Data Science: probando relaciones con regresión lineal — Alura Latam (Feb 2026)</li>
+          <li>• Estadística con Python: probabilidad, muestreo y frecuencias — Alura Latam (Feb 2026)</li>
+          <li>• Visualización de datos: gráficos y tablas con Python — Alura Latam (Feb 2026)</li>
+          <li>• Pandas (Transformación, E/S, agrupación) & NumPy — Alura Latam (Ene-Feb 2026)</li>
+          <li>• Ingeniería de Prompt e IA Generativa aplicada a Datos — Alura Latam (2025-2026)</li>
+          <li>• Python para Data Science y Programación Inicial — Alura / Min. Educación CABA (2025)</li>
+        </ul>
+      </details>
+
+      <!-- Categoría 2: Bases de Datos, Infraestructura y Redes -->
+      <details class="group bg-white/80 rounded-2xl border border-charcoal/5 p-5 transition">
+        <summary class="flex justify-between items-center font-bold cursor-pointer list-none">
+          <span class="flex items-center gap-3">
+            <span class="bg-sand px-3 py-1 rounded-full text-xs">14 Cursos</span>
+            Bases de Datos, Infraestructura Cloud y Redes
+          </span>
+          <span class="text-terracotta group-open:rotate-180 transition-transform">▼</span>
+        </summary>
+        <ul class="mt-4 pt-4 border-t border-charcoal/10 grid md:grid-cols-2 gap-2.5 text-xs md:text-sm text-charcoal/80">
+          <li>• Oracle Autonomous Database — Alura Latam (Ago 2026)</li>
+          <li>• Administración de MySQL: seguridad y optimización (Parte 1 y 2) — Alura (Ago 2026)</li>
+          <li>• SQL con MySQL: proyecto final, Procedures y DML — Alura Latam (Ago 2026)</li>
+          <li>• Consultas avanzadas e Introducción a SQL con MySQL — Alura Latam (Ago 2026)</li>
+          <li>• OCI: base de datos e infraestructura como código — Alura Latam (Jun 2026)</li>
+          <li>• OCI: implementación de aplicaciones y fundamentos — Alura Latam (Abr-May 2026)</li>
+          <li>• Terminal Linux y Redes/Protocolos web — Alura Latam (Abr 2026)</li>
+          <li>• Modelado de bases de datos (Ene 2026) y Git/GitHub (Ago 2025) — Alura Latam</li>
+        </ul>
+      </details>
+
+      <!-- Categoría 3: UX/UI, Diseño y Frontend -->
+      <details class="group bg-white/80 rounded-2xl border border-charcoal/5 p-5 transition">
+        <summary class="flex justify-between items-center font-bold cursor-pointer list-none">
+          <span class="flex items-center gap-3">
+            <span class="bg-lilac px-3 py-1 rounded-full text-xs">14 Cursos</span>
+            UX/UI, Business Intelligence y Desarrollo Frontend
+          </span>
+          <span class="text-terracotta group-open:rotate-180 transition-transform">▼</span>
+        </summary>
+        <ul class="mt-4 pt-4 border-t border-charcoal/10 grid md:grid-cols-2 gap-2.5 text-xs md:text-sm text-charcoal/80">
+          <li>• Talento Tech | Diseño de Experiencias e Interfaces Digitales — CABA (Jun 2026)</li>
+          <li>• Business Intelligence Consulting — Talento Tech CABA (Ene 2026)</li>
+          <li>• Business Intelligence — Aprender Buenos Aires (Ago - Dic 2025)</li>
+          <li>• Diseño UI & Fundamentos UX/UI — Aprender BA y Talento Tech (2024 - 2025)</li>
+          <li>• HTML5 y CSS3: responsividad, flexbox y arquitectura — Alura Latam (Ago-Sep 2025)</li>
+          <li>• Lógica de programación con JavaScript — Alura Latam (Ago 2025)</li>
+        </ul>
+      </details>
+
+    </div>
+
+    <!-- Botones de Descarga Duales -->
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <a href="CV-Lucia-Jantus.pdf" download class="bg-terracotta hover:bg-terracottaDark text-white text-sm font-semibold px-6 py-3 rounded-full transition shadow-sm">
+        📄 Descargar CV Principal (PDF)
+      </a>
+      <a href="Anexo-Cursos-Lucia-Jantus.pdf" download class="bg-lilac hover:opacity-90 text-charcoal text-sm font-semibold px-6 py-3 rounded-full transition">
+        📚 Descargar Anexo Completo de Cursos (PDF)
+      </a>
+    </div>
+  </section>
+  <!-- Pie de página / Contacto -->
+  <footer id="contacto" class="max-w-6xl mx-auto px-6 pb-10 pt-6">
+    <div class="bg-terracotta text-white rounded-3xl p-8 md:p-10 text-center space-y-6 shadow-sm">
+      <h2 class="text-2xl md:text-3xl font-bold">¡Hablemos y colaboremos!</h2>
+      <div class="flex flex-wrap justify-center gap-6 md:gap-10 text-sm md:text-base font-medium">
+        <a href="mailto:luciajantus@gmail.com" class="hover:underline flex items-center gap-2">
+          ✉️ luciajantus@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/luciajantus" target="_blank" rel="noopener" class="hover:underline flex items-center gap-2">
+          💼 LinkedIn (/in/luciajantus)
+        </a>
+        <a href="https://github.com" target="_blank" rel="noopener" class="hover:underline flex items-center gap-2">
+          🐙 GitHub
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
